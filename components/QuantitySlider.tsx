@@ -23,7 +23,7 @@ export default function QuantitySlider() {
       />
 
       <p>Preço unitário: R$ 4,95</p>
-      <p><b>Total:</b> R$ {(qty * PRICE).toFixed(2)}</b></p>
+      <p><b>Total:</b> R$ {(qty * PRICE).toFixed(2)}</p>
 
       <button
         onClick={() => router.push(`/checkout?qty=${qty}`)}
