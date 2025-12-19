@@ -11,13 +11,12 @@ export default function Home() {
         Event Tickets entregues digitalmente em até 15 minutos.
       </p>
 
-      <div style={{ marginTop: 32 }}>
-        <QuantitySlider />
-      </div>
+      <QuantitySlider />
 
-      <p style={{ marginTop: 24, fontSize: 14, color: "#666" }}>
+      <p style={{ marginTop: 24, fontSize: 14, color: "#555" }}>
         ⚠️ A trade será aberta somente pelas contas{" "}
-        <b>TIXBRASIL1</b> ou <b>TIXBRASIL2</b>. Não aceite trades de outras contas.
+        <b>TIXBRASIL1</b> ou <b>TIXBRASIL2</b>.  
+        Não aceite trades de outras contas.
       </p>
     </main>
   );
